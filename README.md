@@ -14,3 +14,6 @@ Note:
 * 3D model and the data is located in the ./data folder. Please make sure the application access the data directly from github. DO NOT load the data from local folder.
 * To simplify the process, only position alignment is required, but it will be nice to have a rotation input panel to perporly align rotation too. 
 * You may ask questions/seek clarification about the exercise over email if required
+
+Hand in:
+Please fork this github repository to your own github account, finish the task, share the repository to the interviewer. 
