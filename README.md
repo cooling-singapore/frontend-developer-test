@@ -10,7 +10,7 @@ Please see the following image as the targetted UI layout.
 
 Note:
 * Make use of React to create the web application, all elements should be contained in React components
-* Make use of [Arcgis](https://developers.arcgis.com/javascript/latest/) javascript library to visualize the 3D model and the color map. The color map should be generated from the given csv data sheet
+* Make use of [Arcgis](https://developers.arcgis.com/javascript/latest/) javascript library to visualize the 3D model and the color map. The color map should be generated from the given csv data sheet called color map. In the csv file, each cell is marked by a number. You are free to specify number-colour relationship.
 * 3D model and the data is located in the ./data folder. Please make sure the application access the data directly from github. DO NOT load the data from local folder.
 * To simplify the process, only position alignment is required, but it will be nice to have a rotation input panel to perporly align rotation too. 
 * You may ask questions/seek clarification about the exercise over email if required
