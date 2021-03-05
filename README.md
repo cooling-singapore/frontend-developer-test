@@ -9,7 +9,7 @@ The following images should give you an idea what we are looking for:
 ![alt text](image/uiSketch.png "Title")
 
 ### Getting started
-Please fork this GitHub repository with your own GitHub account and start working on the task. We are looking to assess for you ability to write high quality code. You should focus on the software design and functionality rather than the UI design. 
+Please clone this GitHub repository with your own GitHub account and start working on the task. We are looking to assess for you ability to write high quality code. You should focus on the software design and functionality rather than the UI design. 
 
 Note:
 * Make use of React to create the web application. All elements should be contained in React components.
