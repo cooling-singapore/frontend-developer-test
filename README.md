@@ -1,19 +1,23 @@
 ## Cooling Singapore 2.0
 
-### Frontend Software Engineer Test
+### Frontend Developer Test
 
-Develop a web application to align a 3D model with a color map. The application will contain two parts. Part one is A data visualization component shows a 3D model and a color map. Part two is a control panel allows users to input xyz coordinates for the 3D model and the color map. Each time when a user input one coordinate, the visualization component should update the position of the model or the heatmap immediately. Users can keep editing the position of the two elements until they aligned with each other.
+You are tasked to develop a web application to align a 3D model with a colored map. The application should contain two parts. Part 1 involves a data visualisation component that displays a 3D model and a map. Part 2 is concerned with a control panel that allows its users to input `x`, `y`, `z` coordinates for the 3D model and the map. The visualisation component should automatically update the position of the model or the map every time a user changes any on of the coordinates. Users should be able to keep modifying the position of the two elements until they are aligned with each other.
 
-Please see the following image as the targetted UI layout. 
+The following images should give you an idea what we are looking for:
 
 ![alt text](image/uiSketch.png "Title")
 
-Note:
-* Make use of React to create the web application, all elements should be contained in React components
-* Make use of [Arcgis](https://developers.arcgis.com/javascript/latest/) javascript library to visualize the 3D model and the color map. The color map should be created from the given csv data sheet called color map. In the csv file, each cell is marked by a number between 0 to 3. You are free to assign colour to each number to generate the color map.
-* 3D model and the data is located in the ./data folder. Please make sure the application access the data directly from github. DO NOT load the data from local folder.
-* To simplify the process, only position alignment is required, but it will be nice to have a rotation input panel to perporly align rotation too. 
-* You may ask questions/seek clarification about the exercise over email if required
+### Getting started
+Please fork this GitHub repository with your own GitHub account and start working on the task. We are looking to assess for you ability to write high quality code. You should focus on the software design and functionality rather than the UI design. 
 
-Hand in:
-Please fork this github repository to your own github account, finish the task, share the repository to the interviewer. 
+Note:
+* Make use of React to create the web application. All elements should be contained in React components.
+* Make use of the [ArcGIS](https://developers.arcgis.com/javascript/latest/) javascript library to visualise the 3D model and the map. The map should be created from the given CSV data sheet called `map.csv`. In the CSV file, each cell is marked by a number between 0 to 3. You are free to assign colors to each number to generate the map.
+* The 3D model and the CSV file are both located in the `./data` folder. Please make sure the application accesses the data directly from GitHub. DO NOT load the data from a local folder.
+* To simplify the process, only position alignment is required but it would be be nice to have a input panel for rotation as well.
+* If you have any questions, please seek clarification via email.
+
+
+### When done
+Please share your repository with us so we can have a look. If we think you have potential, we will invite you for an interview to give you an opportunity to explain your solution and also to learn more about the project and the role.
