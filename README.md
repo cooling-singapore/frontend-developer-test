@@ -16,7 +16,7 @@ Note:
 * Make use of the [ArcGIS](https://developers.arcgis.com/javascript/latest/) javascript library to visualize the 3D geometry and the map. You can use correspondence ArcGIS layers to show object.
 * The 3D geometry and the CSV file are both located in the `./data` folder of this repository. Please make sure your application accesses the data directly from here (consider something like RawGit). Do not load the data from a local folder.
 * The map should be created from the given CSV data sheet called `map.csv`. In the CSV file, each cell is marked by a number between 0 to 3. You are free to assign colors to each number to generate the map.
-* The 3D geometry should be created from `geometry.glb`.
+* The 3D geometry visualization should be created from `geometry.glb`.
 * To simplify the process, only position alignment is required but it would be be nice to have a input panel for rotation as well.
 * You may use a tool of your choice to start/host the webapp (i.e. python, node, etc). Please create a README in the repo to document steps required to build and/or start the app. Please create a NOTE in the repo for anything else worth to mention (i.e. possible improvemnts, design thoughts etc).
 * If you have any questions, please seek clarification via email (awad.maharoof@sec.ethz.ch or cong.ye@sec.ethz.ch).
