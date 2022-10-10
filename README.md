@@ -19,7 +19,7 @@ Note:
 * The 3D geometry visualization should be created from `geometry.glb`.
 * To simplify the process, only position alignment is required but it would be be nice to have a input panel for rotation as well.
 * You may use a tool of your choice to start/host the webapp (i.e. python, node, etc). Please create a README in the repo to document steps required to build and/or start the app. Please create a NOTE in the repo for anything else worth to mention (i.e. possible improvemnts, design thoughts etc).
-* If you have any questions, please seek clarification via email (awad.maharoof@sec.ethz.ch or cong.ye@sec.ethz.ch).
+* If you have any questions, please seek clarification via email (awad.maharoof@sec.ethz.ch or cong.ye@sec.ethz.ch). Otherwise, for anything not explicitly specified above please feel free to make and document your own assumptions as you best see fit
 
 ### When done
 Please share your repository with us so we can have a look. If we think you have potential, we will invite you for an interview to give you an opportunity to explain your solution and also to learn more about the project and the role.
