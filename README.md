@@ -3,7 +3,7 @@
 ### Frontend Developer Test
 You are tasked to develop a web application to align a 3D model with a colored map. The application should contain two parts. Part 1 involves a data visualisation component that displays a 3D model and a map. Part 2 is concerned with a control panel that allows its users to input `x`, `y`, `z` coordinates for the 3D model and the map. The visualisation component should automatically update the position of the model or the map every time a user changes any on of the coordinates. Users should be able to keep modifying the position of the two elements until they are aligned with each other.
 
-You can consider a solution that visualization objects can be moved by mouse, but the coordinates on the side panel should be updated when the oject is moving.
+You can consider a solution that visualization objects can be moved by mouse, but the coordinates on the side panel should be updated when the object is moving.
 
 The following images should give you an idea what we are looking for:
 ![alt text](image/uiSketch.png "Title")
@@ -13,10 +13,10 @@ Please create a new repository using your own GitHub account (do *not* fork this
 
 Note:
 * Make use of React/Typescript to create the web application. All elements should be contained in React components.
-* Make use of the [ArcGIS](https://developers.arcgis.com/javascript/latest/) javascript library to visualise the 3D model and the map. The map should be created from the given CSV data sheet called `map.csv`. In the CSV file, each cell is marked by a number between 0 to 3. You are free to assign colors to each number to generate the map.
+* Make use of the [ArcGIS](https://developers.arcgis.com/javascript/latest/) javascript library to visualize the 3D model and the map. The map should be created from the given CSV data sheet called `map.csv`. In the CSV file, each cell is marked by a number between 0 to 3. You are free to assign colors to each number to generate the map.
 * The 3D model and the CSV file are both located in the `./data` folder of this repository. Please make sure your application accesses the data directly from here (consider something like RawGit). Do not load the data from a local folder.
 * To simplify the process, only position alignment is required but it would be be nice to have a input panel for rotation as well.
-* You may use a tool of your choice to start/host the webapp (i.e. python, node, etc). Please create a README to document steps required to build and/or start the app. Please create a NOTE for anything else worth to mention (i.e. possible improvemnts, design thoughts etc).
+* You may use a tool of your choice to start/host the webapp (i.e. python, node, etc). Please create a README in the repo to document steps required to build and/or start the app. Please create a NOTE in the repo for anything else worth to mention (i.e. possible improvemnts, design thoughts etc).
 * If you have any questions, please seek clarification via email (awad.maharoof@sec.ethz.ch or cong.ye@sec.ethz.ch).
 
 
