@@ -18,7 +18,7 @@ Note:
 * The map should be created from the given CSV data sheet called `map.csv`. In the CSV file, each cell is marked by a number between 0 to 3. You are free to assign colors to each number to generate the map.
 * The 3D geometry visualization should be created from `geometry.glb`.
 * To simplify the process, only position alignment is required but it would be be nice to have a input panel for rotation as well.
-* You may use a tool of your choice to start/host the webapp (i.e. node.js). Please create a README in the repo to document steps required to build and/or start the app. Please create a NOTE in the repo for anything else worth to mention (i.e. possible improvemnts, design thoughts etc).
+* You may use a tool of your choice to host the webapp and manage packages (i.e. node). Please create a README in the repo to document steps required to build and/or start the app. Please create a NOTE in the repo for anything else worth to mention (i.e. possible improvemnts, design thoughts etc).
 * If you have any questions, please seek clarification via email (awad.maharoof@sec.ethz.ch or cong.ye@sec.ethz.ch). Otherwise, for anything not explicitly specified above please feel free to make and document your own assumptions as you best see fit
 
 ### When done
