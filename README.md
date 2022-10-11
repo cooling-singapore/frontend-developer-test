@@ -12,7 +12,7 @@ The following images should give you an idea what we are looking for:
 Please create a new repository using your own GitHub account (do *not* fork this repository). Use the new repository to build your solution. We are looking to assess for you ability to write high quality code. You should focus on the software design and functionality rather than the UI design. Familarity with GitHub is also expected.
 
 Note:
-* Make use of React/Typescript to create the web application. All elements should be contained in React components. Consider to use React features like hooks (i.e. useEffect, useContext etc.). 
+* Make use of React/Typescript to create the web application. All elements should be contained in React components. Consider to use React features like hooks (i.e. useEffect, useContext etc.) to maintain states and data flow. 
 * Make use of the [ArcGIS](https://developers.arcgis.com/javascript/latest/) javascript library to visualize the 3D geometry and the map. You can use correspondence ArcGIS layers to show object.
 * The 3D geometry and the CSV file are both located in the `./data` folder of this repository. Please make sure your application accesses the data directly from here (consider something like RawGit). Do not load the data from a local folder.
 * The map should be created from the given CSV data sheet called `map.csv`. In the CSV file, each cell is marked by a number between 0 to 3. You are free to assign colors to each number to generate the map.
